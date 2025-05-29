@@ -82,3 +82,9 @@ local Button = Trolltab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/Solara%20Hub.lua"))()
    end,
 })
+local Button = Trolltab:CreateButton({
+   Name = "Snake No Fe",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Avtor1zaTion/NO-FE-SNAKE/refs/heads/main/NO-FE-Snake.txt'))()
+   end,
+})
