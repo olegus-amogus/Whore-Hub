@@ -29,6 +29,7 @@ local Window = Rayfield:CreateWindow({
  local Playertab = Window:CreateTab("Player", 4483362458)
  local Trolltab = Window:CreateTab("Troll", 4483362458)
  local GAGtab = Window:CreateTab("Grow A Garden", 4483362458)
+ local BLRtab = Window:CreateTab("Blue Lock:Rivals", 4483362458)
 
  local Slider = Playertab:CreateSlider({
     Name = "WalkSpeed",
@@ -86,5 +87,17 @@ local Button = Trolltab:CreateButton({
    Name = "Snake No Fe",
    Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Avtor1zaTion/NO-FE-SNAKE/refs/heads/main/NO-FE-Snake.txt'))()
+   end,
+})
+local Button = BLRtab:CreateButton({
+   Name = "Sterling Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+   end,
+})
+local Button = BLRtab:CreateButton({
+   Name = "Script For Farm",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bhusant/Bathroom-attack/refs/heads/main/Bathroom"))()
    end,
 })
